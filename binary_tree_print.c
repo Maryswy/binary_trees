@@ -5,7 +5,6 @@
 
 /* Original code from http://stackoverflow.com/a/13755911/5184480 */
 
-
 /**
  * print_t - Stores recursively each level in an array of strings
  *
@@ -16,7 +15,6 @@
  *
  * Return: length of printed tree after process
  */
-
 static int print_t(const binary_tree_t *tree, int offset, int depth, char **s)
 {
 	char b[6];
@@ -45,8 +43,6 @@ static int print_t(const binary_tree_t *tree, int offset, int depth, char **s)
 	return (left + width + right);
 }
 
-
-
 /**
  * _height - Measures the height of a binary tree
  *
@@ -63,7 +59,6 @@ static size_t _height(const binary_tree_t *tree)
 	height_r = tree->right ? 1 + _height(tree->right) : 0;
 	return (height_l > height_r ? height_l : height_r);
 }
-
 
 /**
  * binary_tree_print - Prints a binary tree
