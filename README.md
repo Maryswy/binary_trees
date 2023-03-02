@@ -18,6 +18,8 @@ What is a complete, a full, a perfect, a balanced binary tree
 DATA STRUCTURES
 
 Basic Binary Tree
+
+
 /**
  * struct binary_tree_s - Binary tree node
  *
